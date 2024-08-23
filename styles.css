@@ -1,0 +1,67 @@
+body {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(54, 54, 54, 1) 100%, rgba(0, 0, 0, 1) 100%);
+
+}
+
+.cardBR {
+
+}
+
+.headerContent {
+
+    background-size: cover;
+    background-image: url("assets/img/1.jpg");
+    height: 600px;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1rem;
+
+}
+
+/*
+.card{
+    backdrop-filter: blur(5px);
+    Background-color: transparent;
+    animation: anime 1s infinite ease-in-out alternate;
+    -webkit-animation: 1s infinite ease-in-out alternate;
+    color: white;
+}
+
+.imgyo {
+    border-radius:50%;
+    margin: 0 auto;
+    width: 200px;
+    animation-name: anime;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    position: relative;
+    bottom: 80px;
+    left:20px;
+    border: 7px solid rgb(255,94,0) ;
+}
+
+
+@keyframes anime{
+    50%{
+      transform: translateY(30px);
+    }
+}
+
+.redes{
+    display: flex;
+    justify-content: center;
+}
+
+.cajatitulo{
+    
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px; 
+    background-color: rgb(255, 157, 0);
+}
+
+.CajaFormulario{
+
+}
