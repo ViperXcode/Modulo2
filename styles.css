@@ -1,11 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root {
+    /*Generar variables de colores para llamarlas en los divs*/
+
+    --bg-color:#081b29;
+    --second-bg-color:#112e42;
+    --text-color:#ededed;
+    --main-color:#00abf0;
+}
+
 body {
+
     background: rgb(0, 0, 0);
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(54, 54, 54, 1) 100%, rgba(0, 0, 0, 1) 100%);
 
 }
 
-.cardBR {
+h1{
+    color: #e7f2ff;
+}
 
+input, textarea{
+    width:100%;
+    margin-bottom:20px;
+    padding: 7px;
+}
+
+#BtnEnviars{
+
+    background:#31384a;
+    color:#ffffff;
+    padding:10px;
+    width: 50%;
+}
+
+#BtnEnviars:hover {
+    cursor:pointer;
+    background:#008a05;
+    
+}
+
+span{
+
+    color: var(--text-color)
+}
+
+
+.Letratitulo{
+    font-family: 'Roboto', sans-serif;
+        /*background:#ccc;
+    background: linear-gradient(180deg, #f1f1f1,#252525);
+    font-size:3rem;
+    -webkit-text-fill-color:transparent;
+    -webkit-background-clip: text;
+    text-shadow: 0px 0px 3px #cecece; 
+    */
 }
 
 .headerContent {
@@ -21,39 +76,470 @@ body {
 
 }
 
-/*
-.card{
-    backdrop-filter: blur(5px);
-    Background-color: transparent;
-    animation: anime 1s infinite ease-in-out alternate;
-    -webkit-animation: 1s infinite ease-in-out alternate;
-    color: white;
-}
 
-.imgyo {
-    border-radius:50%;
-    margin: 0 auto;
-    width: 200px;
-    animation-name: anime;
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    position: relative;
-    bottom: 80px;
-    left:20px;
-    border: 7px solid rgb(255,94,0) ;
+.cardinicial{
+    width: auto;
+    height: auto;
+    background: rgb(25,25,25);
+    background: linear-gradient(to right, #1c1130 0%, #1c1130 100%);
+
 }
 
 
-@keyframes anime{
-    50%{
-      transform: translateY(30px);
-    }
+
+.Inicial{
+    background-size: cover;
+    background-image: url("assets/img/1.jpg");
+    
+    height: 880px;
+    border-radius: 10px;
+    /*background:linear-gradient(to right, #141414 0%, #141414 100%);*/
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.466);
+    margin: 20px 0px 20px 0px;
+    padding:40px;
 }
 
-.redes{
+.cardsecundaria{
+    
+    width: 100%;
+    height: auto;
+    background:linear-gradient(to right, #0e2c44 0%, #0e2c44 100%);
+}
+
+
+.animacionfoto{
+    align-items: center;
+    padding: 20px;
     display: flex;
     justify-content: center;
 }
+
+.fila{
+    column-gap: 20px;
+}
+
+.TARJETA{
+
+    text-align: center;
+    border-radius:15px;
+    background: linear-gradient(to right, #141414 0%, #141414 100%);
+    padding: 20px;
+    /* margin: 20px; */
+    box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.466);
+    min-width: 280px
+    
+}
+
+.skill-lt{
+
+    padding: 10px 20px 10px 20px;;
+}
+.fa-brands{
+    color: #8d4afa;
+}
+
+.fa-solid{
+    color: #8d4afa;
+}
+
+hr {
+    background: linear-gradient(to right, rgb(35, 0, 90), rgb(71, 0, 165));
+    height: 1px;
+  }
+
+.icon{
+    width: 1px;
+    height: 1px;
+    padding-right: 30px;
+    border-radius: 10%;
+    cursor: pointer;
+
+}
+
+.skill:hover .fa-brands{
+    cursor: pointer;
+
+    
+}
+
+.icons{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
+
+
+.skill{
+
+    border-radius:15px;
+    background: linear-gradient(to right, #1d1d1d 0%, #1d1d1d 100%);
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 7px;
+
+}
+
+.DCV{
+    color: #ffffff;
+    border-radius: 7px;
+    background: rgb(34,193,195);
+    background: linear-gradient(195deg, #700fca, #6025c6, #5131c1, #4339bb, #373eb3, #2d42ab, #2545a1, #224797);
+    padding:10px;
+    border:none;
+    width: 70%;
+    cursor: pointer;
+}
+
+.Descriptor{
+    text-align: start;
+    padding:10px;
+}
+
+.Cosas1{
+    text-align: start;
+    border-radius: 10px;
+    background: linear-gradient(to right, #1d1d1d 0%, #1d1d1d 100%);
+    padding: 20px;
+    margin: 5px;
+}
+
+.Cosas1:hover{
+    cursor:pointer;
+    background: linear-gradient(195deg, #700fca, #6025c6, #5131c1, #4339bb, #373eb3, #2d42ab, #2545a1, #224797);
+    
+}
+.Cosas1:hover .fa-solid {
+   color: #ffff;
+   
+}
+
+.Cosas1:hover .fa-brands {
+    color: #ffff;
+ }
+
+.Cosas2{
+    text-align: start;
+    border-radius: 10px;
+    background: linear-gradient(to right, #1d1d1d 0%, #1d1d1d 100%);
+    padding: 20px;
+    margin: 5px;
+
+}
+
+.Cosas3{
+    text-align: start;
+    border-radius: 10px;
+    background: linear-gradient(to right, #1d1d1d 0%, #1d1d1d 100%);
+    padding: 20px;
+    margin: 5px;
+}
+
+.Portimg{
+    width:100%;
+    border-radius: 5px;
+}
+
+/* ------------------------- AQUI COMIENZA EL JUEGO -------------------------  */
+
+.supercontenedorslider{
+
+
+    width:100%;
+    height: 90vh;
+    display:flex;
+    align-items:center;
+    overflow: hidden;
+}
+
+
+.contenedorslider{
+
+    width:100%;
+    height:80vh; /*vh medida del viewport*/
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    overflow:hidden;
+
+}
+
+.imgContainer{
+    width:90%;
+    height:600px;
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+
+}
+
+.slide_div{
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    margin: 0 30px 0 30px;
+
+}
+
+.imgslider{
+    position: relative;
+    height:370px;
+    width:240px;
+    filter:saturate(10%);
+    transition: 0.7s;
+    background-color: rgb(0,0,0,0.4);
+    border-radius: 20px;
+}
+
+.buttonslider{
+    position:absolute;
+    height:370px;
+    width: 240px;
+    transition:0.7s;
+    background-color:rgba(0,0,0,0.4);
+    border-radius:20px;
+
+}
+
+.buttonslider:hover{
+
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+
+#slider1:target ~ .imgContainer #img1,
+#slider1:target ~ .imgContainer #button1{
+    width:390px;
+    height:600px;
+    background-color:transparent;
+    filter:saturate(100%)
+}
+
+#slider2:target ~ .imgContainer #img2,
+#slider2:target ~ .imgContainer #button2{
+    width:390px;
+    height:600px;
+    background-color:transparent;
+    filter:saturate(100%)
+}
+
+#slider3:target ~ .imgContainer #img3,
+#slider3:target ~ .imgContainer #button3{
+    width:390px;
+    height:600px;
+    background-color:transparent;
+    filter:saturate(100%)
+}
+
+#slider4:target ~ .imgContainer #img4,
+#slider4:target ~ .imgContainer #button4{
+    width:390px;
+    height:600px;
+    background-color:transparent;
+    filter:saturate(100%)
+}
+
+#slider5:target ~ .imgContainer #img5,
+#slider5:target ~ .imgContainer #button5{
+    width:390px;
+    height:600px;
+    background-color:transparent;
+    filter:saturate(100%)
+}
+
+#slider6:target ~ .imgContainer #img6,
+#slider6:target ~ .imgContainer #button6{
+    width:390px;
+    height:600px;
+    background-color:transparent;
+    filter:saturate(100%)
+}
+
+#slider7:target ~ .imgContainer #img7,
+#slider7:target ~ .imgContainer #button7{
+    width:390px;
+    height:600px;
+    background-color:transparent;
+    filter:saturate(100%)
+}
+
+#slider1:target ~ .imgContainer{
+    left: 60%;
+}
+#slider2:target ~ .imgContainer{
+    left: 40%;
+}
+#slider3:target ~ .imgContainer{
+    left: 20%;
+}
+#slider4:target ~ .imgContainer{
+    left: 0%;
+}
+#slider5:target ~ .imgContainer{
+    left: -20%;
+}
+#slider6:target ~ .imgContainer{
+    left: -40%;
+}
+#slider7:target ~ .imgContainer{
+    left: -60%;
+}
+/* ------------------------- AQUI TERMINA EL JUEGO -------------------------  */
+
+/* ------------------------- AQUI COMIENZA EL JUEGO v2-------------------------  */
+
+.timeline-section{
+    background-color: #24292d;
+    min-height:100vh;
+    padding:100px 25px;
+    
+}
+
+.timeline-items{
+    max-width:1000px;
+    margin:auto;
+    display:flex;
+    flex-wrap:wrap;
+    position:relative;
+
+}
+
+.timeline-items::before{
+
+    content:'';
+    position:absolute;
+    width: 2px;
+    height:100%;
+    background-color:#2f363e;
+    left:calc(50% - 1px);
+
+}
+
+.timeline-item{
+
+    margin-bottom:40px;
+    width:100%;
+    position:relative;
+
+}
+
+.timeline-item:last-child{
+    margin-bottom:0;
+}
+.timeline-item:nth-child(odd){
+    padding-right: calc(50% + 30px);
+    text-align:right;
+
+}
+.timeline-item:nth-child(even){
+    padding-left: calc(50% + 30px);
+
+}
+
+.timeline-dot{
+    height:16px;
+    width:16px;
+    background-color:  #8d4afa;
+    position:absolute;
+    left: calc(50% - 8px);
+    border-radius: 50%;
+    top: 10px;
+
+}
+
+.timeline-date{
+    font-size:18px;
+    color: rgb(255, 115, 0);
+    margin: 6px 0 15px;
+}
+
+.timeline-nameOrg{
+
+    border-radius: 7px;
+    background: linear-gradient(195deg, #700fca, #6025c6, #5131c1, #4339bb, #373eb3, #2d42ab, #2545a1, #224797);
+    padding:7px;
+    color: #ffff;
+    transition: all 1s ease-in-out;
+}
+
+.timeline-nameOrg i{
+    padding: 5px;;
+    color: #dfe8ffbb;
+
+}
+
+.timeline-nameOrg:hover {
+    cursor:pointer;
+    background: radial-gradient(circle at 100% 10%, #ff912a, #ff5858);
+}
+
+.timeline-content{
+    display:none;    
+    background-color:#2f363e;
+    padding:10px;
+    border-radius: 15px;
+}
+
+.timeline-content h3{
+    font-size: 20px;
+    color:#ffffff;
+    margin: 0 0 10px;
+    text-transform:capitalize;
+    font-weight: 500;
+}
+
+.timeline-content p{
+    color: #c8c8c8;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 22px;
+}
+
+
+.myModal{
+    backdrop-filter: blur(3px);
+    display:none;
+    width:100%;
+    height:100%;
+    padding:10px;
+    border-radius: 15px;
+    z-index: 19;
+    position: fixed;
+    top:0;
+    left:0;
+    background-color: rgba(0, 0, 0, 0.4) ;
+
+}
+
+
+.myModal-content{
+
+    background-color:#2f363e;
+    width:40%;
+    margin: 10% auto;
+    padding:40px;
+    border-radius: 10px;
+    color: #ffff;
+    
+}
+
+#modal-title h3{
+    display:block;
+    text-align:Center;
+    margin: 0 auto;
+    color: #ffff;
+}
+
+
+#modal_close{
+    display: flex;
+    justify-content: flex-end;
+    
+
+}
+/* ------------------------- AQUI TERMINA EL JUEGO V2-------------------------  */
 
 .cajatitulo{
     
@@ -65,3 +551,61 @@ body {
 .CajaFormulario{
 
 }
+.imgyo2{
+    width: 100%;
+    
+    display:flex;
+    text-align: center;
+    position: absolute;
+    /* top:0;
+    left:0; */
+
+}
+.imgyo{
+
+    border-radius:50%;
+    width:100%;
+    height:100%;
+    border: 7px solid transparent;
+    background: radial-gradient(circle at 50% 50%, #700fca, #142958);
+    
+    }
+
+.pulse{
+    text-align: center;
+    position:relative;
+    width: 200px;
+    height:200px;
+    background:#6200ff;
+    border-radius:50%;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    margin: 0;
+    
+}
+
+
+.pulse span{
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    border-radius: inherit;
+    opacity:.1;
+    animation: pulseAnimate 4s ease-out infinite;
+    animation-delay:calc(1s * var(--i));
+
+
+}
+
+@keyframes pulseAnimate{
+    100%{
+        opacity:0;
+        transform: scale(2);
+    }
+}
+

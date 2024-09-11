@@ -1,75 +1,541 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+
 </head>
 
 
-  
+
 <body>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Disabled</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
+  <section class="cardinicial">
+    <div class="container-fluid">
+      <div class="row primercontenedor justify-content-center">
+        <div class="Inicial col-11">
+          <h1>Bienvenido a mi portafolio!, soy <span>Luis Adaro</span></h1>
+          <div class="">
+            <h3>Ingeniero en Información y Control de Gestión</h3>
+          </div>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ullam eum pariatur quisquam, ab ipsa placeat.
+            Sequi
+            eius dolore omnis consequuntur iste quae maxime laudantium nostrum, maiores voluptatum veritatis quod
+            labore.
+          </p>
         </div>
-      </nav>
+      </div>
+    </div>
+  </section>
 
-      <div class="container-fluid">
-    
-        <div class="row justify-content-center">
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-5-strong">
 
-            <div class="col-8">
-                <div class="mx-auto text-center headerContent"> 
-                        <h1 class="image-title">
-                            Paralapapiricoipi
-                        </h1>
-                </div> 
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav m-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#Quiensoy">Quien soy <span class="sr-only">(current)</span></a>
+        </li>
+        <a class="navbar-brand" href="#"><i class="fa-solid fa-bolt"></i></a>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Experiencia Laboral</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Proyectos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </li>
+
+      </ul>
+
+    </div>
+  </nav>
+
+  <div class="container-fluid" id="Quiensoy">
+
+    <div class="row card-body justify-content-center fila">
+
+      <!-- TARJETA 1 COMIENZO -->
+
+      <div class="TARJETA col-sm-12 col-md-6 col-lg-4 col-xl-2">
+        <div class="animacionfoto">
+          
+          <div class="pulse">
+            
+            <span style="--i:0"></span>
+            <span style="--i:1"></span>
+            <span style="--i:2"></span>
+            <span style="--i:3"></span>  
+            <div class="imgyo2">
+              <img src="assets/img/yo.png" class="imgyo" alt="...">
+            </div>
+            
+          </div>
+        </div>
+
+        <H1 class="Letratitulo" style="font-weight: bolder">Luis Adaro</H1>
+
+
+        <div class="skill">
+          <span>Ingeniero en Información y Control de Gestión con dotes musicales y artistico ⚡</span>
+        </div>
+
+        <div class="skill d-flex justify-content-around">
+
+          <a href="https://www.facebook.com" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-google"></i>
+          <i class="fa-brands fa-twitch"></i>
+
+        </div>
+
+        <div class="skill">
+          <div class="skill-lt">
+            <div class="icon">
+              <i class="fa-solid fa-phone"></i>
             </div>
 
+            <div class="texto">
+              <span>+569 81360969</span>
+            </div>
+
+            <hr>
+
+            <div class="icon">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="texto">
+              <span>Lma.adaro@gmail.com</span>
+            </div>
+
+            <hr>
+
+            <div class="icon">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+
+            <div class="texto">
+              <span>Antofagasta</span>
+            </div>
+
+            <hr>
+
+            <div class="icon">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+
+            <div class="texto">
+              <span>www.Thunderstudio.cl</span>
+            </div>
+
+          </div>
+          <br>
+
+          <button class="DCV">Descarga mi CV</button>
+          <hr>
+          <button class="DCV">Contáctame</button>
         </div>
-    
-     </div>
+      </div>
 
-    
+      <!-- TARJETA 1 COMIENZO -->
 
-    
+      <!-- TARJETA 2 COMIENZO -->
+
+      <div class="TARJETA col-sm-12 col-md-7 col-lg-6 col-xl-6" >
+
+        <div class="Descriptor">
+          <div class="row align-items-center">
+            <div class="Titulo col-4" >
+              <h1>Quien soy</h1>
+            </div>
+            <div class="Titulohr col-8">
+              <hr>
+            </div>
+          </div>
+
+          <div class="Descripción">
+            <span> Profesional titulado de Ingeniería en Información y Control de Gestión, con conocimientos en
+              herramientas de tecnologías y gestión aplicada a los negocios. Alta responsabilidad, integridad y
+              compromiso, con disposición a aprender acorde a los desafíos y pbjetivos de las organizaciones y con
+              capacidad para trabajar en equipo.</span>
+          </div>
+          <br>
+          <br>
+          <div class="row align-items-center">
+            <div class="Titulo col-8">
+              <h1>Que es lo que hago</h1>
+            </div>
+
+            <div class="Titulohr col-4">
+              <hr>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="Cosas1 col-5">
+            <div class="row ">
+              <div class="icon col-2">
+                <i class="fa-solid fa-video"></i>
+              </div>
+              <div Class="Descripción col-9">
+                <div class="Titulex">
+                  <h1>Videos Corporativos</h1>
+                  <div class="texto">
+                    <span>Realizo material corporativo para emprendimientos, empresas e instituciones eduacionales,
+                      incorporando animación gráfica de vanguardia</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="Cosas1 col-5">
+            <div class="row">
+              <div class="icon col-2">
+                <i class="fa-solid fa-podcast"></i>
+              </div>
+              <div Class="Descripción col-9">
+                <div class="Titulex">
+                  <h1>Podcast & Streaming</h1>
+                </div>
+                <div class="texto">
+                  <span>El streaming y podcast han llegado para quedarse en internet. Realizo la producción y post
+                    producción de ambos productos digitales, contando con toda la herramientas y equipo logistico para
+                    ello. </span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="Cosas1 col-5">
+            <div class="row ">
+              <div class="icon col-2">
+                <i class="fa-solid fa-camera"></i>
+              </div>
+              <div Class="Descripción col-9">
+                <div class="Titulex">
+                  <h1>Fotografía</h1>
+                  <div class="texto">
+                    <span>Realizo sesiones fotográficas corporativas para empresas e instituciones.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="Cosas1 col-5">
+            <div class="row ">
+              <div class="icon col-2">
+                <i class="fa-brands fa-phoenix-squadron"></i>
+              </div>
+              <div Class="Descripción col-9">
+                <div class="Titulex">
+                  <h1>Drone</h1>
+                  <div class="texto">
+                    <span>Relizo vuelos de drone en áreas permitidas en locaciones solicitadas. Cuento con credencial de
+                      la Dirección Aeronautica Civil</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="Cosas1 col-5">
+            <div class="row ">
+              <div class="icon col-2">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div Class="Descripción col-9">
+                <div class="Titulex">
+                  <h1>Web corporativa</h1>
+                  <div class="texto">
+                    <span>Realizo páginas web coorporativas basadas en html, css y javascript. Tambien manejo el gestor
+                      de contenidos Wordpress y Joomla.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="Cosas1 col-5">
+            <div class="row ">
+              <div class="icon col-2">
+                <i class="fa-solid fa-chart-pie"></i>
+              </div>
+              <div Class="Descripción col-9">
+                <div class="Titulex">
+                  <h1>Analisis de Datos</h1>
+                  <div class="texto">
+                    <span>Realizo analisis de información empresarial, gestor de KPIS y analisis de variabes
+                      cuantitativas en proyectos que se necesite tal información. Manejo de excel y power bi.</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <!-- TARJETA 2 FIN -->
+
+      <!-- TARJETA 3 COMIENZO -->
+
+      <div class="TARJETA col-sm-12 col-md-6 col-lg-2 col-xl-3">
+        <div class="Titulo col-4">
+          <h1>Experiencia Laboral</h1>
+        </div>
+        <div class="Titulohr col-8">
+          <hr>
+        </div>
+
+        <section class="Timeline ">
+
+          <div class="timeline-items col-sm-12 col-md-6 col-lg-3 col-xl-3">
+
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">2023</div>
+              <div class="timeline-nameOrg">
+                <h6>Minera Centinela</h6>
+                <i class="fa-solid fa-briefcase"></i>
+              </div>
+              <div class="timeline-content">
+                <h3>Minera Centinela</h3>
+                <p>Encargado de ejecutar procesos relacionados a: Auditoria documental en acreditación de vehículos y
+                  equipos para ingreso a faena de acuerdo a Estándar de Acreditación de Vehículos y equipos de Minera
+                  Centinela. Gestión de infracciones y asignación de sanción de acuerdo a criterios indicados en el
+                  Estándar de Conductores de Minera Centinela</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">2020 - Presente</div>
+              <div class="timeline-nameOrg"><i class="fa-solid fa-briefcase"></i> Thunder Studio</div>
+              <div class="timeline-content">
+                <h3>Thunder Studio</h3>
+                <p> Realización de campañas corporativas para Admisión
+                  Universitarias. Realización de videos promocionales para Pymes,Grabación de Podcast. Videos
+                  corporativos. Tomas aéreas con drone recreacional, Streaming corporativo para entidades universitarias
+                </p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">2019 - 2020</div>
+              <div class="timeline-nameOrg">PAR Explora <i class="fa-solid fa-briefcase"></i></div>
+              <div class="timeline-content">
+                <h3>PAR Explora</h3>
+                <p> Cuantificación de beneficiarios y participantes del programa y sus actividades, considerando
+                  información personal para la generación de reportes estadísticos. Diseño, elaboración y aplicación de
+                  instrumentos de calidad para evaluar la percepción de los participantes sobre las actividades
+                  desarrolladas. Análisis y reporte estadístico de los instrumentos aplicados al publico objetivo.
+                  Encargado de plataformas online para la transmisión de actividades ejecutadas durante el año 2020.
+                  Elaboración de material audiovisual para tutoriales sobre la usabilidad de plataformas a utilizar</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">2018</div>
+              <div class="timeline-nameOrg"> <i class="fa-solid fa-briefcase"></i> Constructora Coposa</div>
+              <div class="timeline-content">
+                <h3>Constructora Coposa - Consorcio Abengoa - Kipreos </h3>
+                <p>Creación de base de datos para unidades organizacionales basadas en Microsoft Excel, Access, Word y
+                  Visual Basic for application.
+                  Automatización de registro de capacitaciones para departamento de
+                  prevención de riesgos. Automatización de registro de flota de vehiculos, seguimiento y combustible
+                  para
+                  departamento de logística. Automatización de generación de documentos para departamento de Recursos
+                  Humanos</p>
+              </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-date">2016-2017</div>
+              <div class="timeline-nameOrg">Universidad Católica del Norte <i class="fa-solid fa-briefcase"></i></div>
+              <div class="timeline-content">
+                <h3>Universidad Católica del Norte </h3>
+                <p>Servicios profesionales administrativos para unidades como CADEM y MECESUP en análisis de
+                  información y gestión administrativa.
+                  Plataforma E-Learning para proyecto "Formación Ciudadana", Escuela de Educación de la
+                  Universidad Católica del Norte</p>
+              </div>
+            </div>
+          </div>
+
+        </section>
+
+
+      </div>
+
+
+    </div>
+
+  </div>
+
+  <!-- EL MODALS-->
+
+  <div class="myModal">
+    <div class="myModal-content">
+      <div id="modal_close">
+        <i class="fa-solid fa-x"></i>
+      </div>
+      <h3 id="modal-title">Constructora Coposa - Consorcio Abengoa - Kipreos</h3>
+      <p id="modal-text"> Creación de base de datos para unidades organizacionales basadas en Microsoft Excel, Access,
+        Word y
+        Visual Basic for application. Automatización de registro de capacitaciones para departamento de
+        prevención de riesgos. Automatización de registro de flota de vehiculos, seguimiento y combustible
+        para
+        departamento de logística. Automatización de generación de documentos para departamento de Recursos
+        Humanos</p>
+    </div>
+
+  </div>
+  <!-- TARJETA 3 FIN-->
+
+  <!-- SLIDER COMIENZO -->
+
+  <div class="container-fluid">
+
+    <div class="row supercontenedorslider">
+
+      <div class="contenedorslider col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+        <span class="slider" id="slider1"></span>
+        <span class="slider" id="slider2"></span>
+        <span class="slider" id="slider3"></span>
+        <span class="slider" id="slider4"></span>
+        <span class="slider" id="slider5"></span>
+        <span class="slider" id="slider6"></span>
+        <span class="slider" id="slider7"></span>
+
+        <div class="imgContainer">
+
+          <div class="slide_div" id="slide_1">
+            <img src="assets/img/vba.png" alt="" class="imgslider" id="img1">
+            <a href="#slider1" class="buttonslider" id="button1"></a>
+          </div>
+
+          <div class="slide_div" id="slide_2">
+            <img src="assets/img/vba.png" alt="" class="imgslider" id="img2">
+            <a href="#slider2" class="buttonslider" id="button2"></a>
+          </div>
+
+          <div class="slide_div" id="slide_3">
+            <img src="assets/img/vba.png" alt="" class="imgslider" id="img3">
+            <a href="#slider3" class="buttonslider" id="button3"></a>
+          </div>
+
+          <div class="slide_div" id="slide_4">
+            <img src="assets/img/vba.png" alt="" class="imgslider" id="img4">
+            <a href="#slider4" class="buttonslider" id="button4"></a>
+          </div>
+
+          <div class="slide_div" id="slide_5">
+            <img src="assets/img/vba.png" alt="" class="imgslider" id="img5">
+            <a href="#slider5" class="buttonslider" id="button5"></a>
+          </div>
+
+          <div class="slide_div" id="slide_6">
+            <img src="assets/img/vba.png" alt="" class="imgslider" id="img6">
+            <a href="#slider6" class="buttonslider" id="button6"></a>
+          </div>
+
+          <div class="slide_div" id="slide_7">
+            <img src="assets/img/vba.png" alt="" class="imgslider" id="img7">
+            <a href="#slider7" class="buttonslider" id="button7"></a>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- SLIDER FIN -->
+
+  <!-- FORMULARIO DE CONTACTO -->
+
+  <div class="cardsecundaria">
+
+    <div class="row justify-content-center">
+      <div class="col-6">
+        <div class="row justify-content-center">
+
+          <div class="Cosas3 col-8 ">
+            <form action="">
+              <h1>Contacto</h1>
+              <input type="text" name="Nombre Completo" placeholder="Nombre Completo">
+              <input type="text" name="Correo" placeholder="Correo">
+              <input type="text" name="Numero" placeholder="Numero de Contacto">
+              <input type="text" name="Empresa" placeholder="Empresa">
+              <textarea placeholder="Escribe aqui tu mensaje"></textarea>
+              <input type="button" value="Enviar" id="BtnEnviars">
+            </form>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- FORMULARIO DE CONTACO FIN -->
+
+  </div>
+
+
+  <!--  <section>
+    <div class="cardRotated">
+
+    </div>
+  </section>
+
+
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-8">
+        <div class="mx-auto text-center headerContent">
+          <h1 class="image-title">
+            Paralapapiricoipi
+          </h1>
+        </div>
+      </div>
+    </div>
+  </div>-->
+
+
 </body>
+
 <footer>
-    <h1>holi</h1>
+  <h1>Todos los derechos Reservados</h1>
 </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 <script src="https://kit.fontawesome.com/cb9cee40ce.js" crossorigin="anonymous"></script>
+<script src="assets/js/script.js"></script>
+
 </html>
